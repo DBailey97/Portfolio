@@ -69,15 +69,15 @@ a:link {
     color: rgb(255, 255, 255);
   }
   
-a:visited {
+  .portfolio-item a:visited {
     color: #69eeff;
   }
   
-a:hover {
+  .portfolio-item a:hover {
     color: #0722c07c;
   }
   
-a:active {
+  .portfolio-item a:active {
     color: #0722c07c;
   }
   
