@@ -1,0 +1,181 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.section { /*section is main content of pages*/
+    padding: 20px;
+    background-color: #fff;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px rgba(7, 34, 192, 0.486);
+}
+
+.section h2 {
+    margin-top: 0;
+}
+
+.section p {
+    line-height: 1.6;
+}
+
+.portfolio-item { /*Hover images in Projects page*/
+    margin-bottom: 30px;
+    position: relative;
+    width: 50%;
+}
+
+.portfolio-item img { /*Hover images in Projects page*/
+    max-width: 100%;
+    height: auto;
+}
+
+footer { /*All pages */
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+a:link {
+    color: rgb(255, 255, 255);
+  }
+  
+a:visited {
+    color: #69eeff;
+  }
+  
+a:hover {
+    color: #0722c07c;
+  }
+  
+a:active {
+    color: #0722c07c;
+  }
+  
+.image {
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: 30px;
+  }
+  
+.overlay { /* Hover over image effect*/
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #008CBA;
+    border-radius: 30px;
+  }
+  
+.portfolio-item:hover .overlay { /* Hover over image effect*/
+    opacity: 1;
+  }
+  
+.portfolio-text { /* Text inside Hover over image effect*/
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+  }
+
+  
+/* Index Nav Styling*/
+
+
+.index-gallery {
+  border: 1px solid #ccc;
+  }
+  
+.index-gallery:hover {
+  border: 1px solid #777;
+  }
+  
+.index-gallery img {
+  width: 100%;
+  height: auto;
+  }
+  
+.index-desc {
+  padding: 15px;
+  text-align: center;
+  }
+  
+.index-nav {
+  padding: 50px 50px;
+  float: left;
+  width: 30%;
+  margin-left: 50px
+  }
+
+
+/* Page Nav Styling*/
+
+
+.page-gallery {
+  border: 5px solid #ccc;
+}
+
+.page-gallery:hover {
+  border: 1px solid #777;
+}
+
+.page-gallery img {
+  width: 100%;
+  height: auto;
+}
+
+.page-desc {
+  padding: 15px;
+  text-align: center;
+}
+
+.page-nav {
+  padding: 25px 10px 10px 10px;
+  float: left;
+  width: 12%;
+  margin-left: 75px
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+  }
